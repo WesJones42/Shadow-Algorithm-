@@ -2,7 +2,7 @@ import math
 import numpy as np
 import argparse
 
-# begin PROVIDED section - do NOT modify ##################################
+
 
 count = 0
 
@@ -73,9 +73,8 @@ def runTest(args, terrain = None) :
 
     return result
 
-# end PROVIDED section ##################################
 
-# Fritz Sieker 
+
 def Equate(y,x,h,image,N,i):
 #    print(x,",",y)
     j = image[y][x]
